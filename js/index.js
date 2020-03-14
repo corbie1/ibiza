@@ -116,3 +116,12 @@ jQuery(function($){
 
     $('.slider-single').slick('slickGoTo', goToSingleSlide);
  });
+
+
+
+ $(document).ready(function () {
+        $('.accordion__header').click(function () {
+            $(this).toggleClass('in').next().slideToggle();
+            $('.accordion__header').not(this).removeClass('in').next().slideUp();
+        });
+    });

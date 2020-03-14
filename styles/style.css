@@ -394,7 +394,7 @@ background: #F1F2F6;
 }
 .info--right{
 	text-align: right;
-	margin-right: 333px
+	margin-right: 200px
 }
 .slogan--right{
 border-right: 3px solid #000F46;
@@ -931,7 +931,7 @@ cursor: pointer;
 	font-style: normal;
 font-weight: normal;
 font-size: 36px;
-line-height: 24px;
+line-height: 30px;
 
 
 color: #000F46;
@@ -1448,6 +1448,7 @@ color: #000F46;
 font-size: 36px;
 line-height: 44px;
 color: #000F46;
+max-width: 430px;
 }
 .b-about__props{
 	font-weight: normal;
@@ -1465,8 +1466,21 @@ color: #000F46;
 }
 .props__item{
 	position: relative;
-margin-left: 20px;
+margin-left: 28px;
+margin-top: 10px;
+}
+.props__item span{
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #000F46;
+
+}
+.b-about__props{
 margin-top: 30px;
+
 }
 .props__item:before{
 	width: 5px;
@@ -1476,7 +1490,7 @@ content: '';
 display: block;
 position: absolute;
 top: 8px;
-left: -20px;
+left: -28px;
 }
 .b-about__button{
 	margin-top: 90px;
@@ -1544,4 +1558,185 @@ color: #000F46;
 }
 .b-buy__props{
 	margin-left: 20px;
+}
+.b-accordion__item{
+	width: 500px;
+}
+.accordion__header{
+	display: flex;
+	background: #002F61;
+	height: 45px;
+	align-items: center;
+	color: #ffffff;
+position: relative;
+cursor: pointer;
+	margin-top: 5px;
+}
+.b-accordion__list{
+	margin-top: 15px;
+}
+.accordion__rate{
+	margin-left: 10px;
+align-items: center;
+	margin-right: 5px;
+	display: flex;
+	font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+}
+.accordion__rate:after{
+	content: '';
+	display: block;
+	height: 1px;
+	width: 25px;
+	background-color: rgba(255, 255, 255, 0.3);
+	transform: rotate(108.43deg);
+}
+.accordion__date{
+	font-size: 10px;
+line-height: 12px;
+text-align: center;
+color: #FFFFFF;
+}
+.accordion__time ul{
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000F46;
+	width:90%;
+	padding-left:15px;
+	padding-right: 30px;
+}
+.accordion__time li{
+	font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000F46;
+}
+.accordion__time{
+	display: flex;
+	font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+background: #F1F2F6;
+color: #000F46;
+	padding-left: 10px;
+
+}
+.accordion__time p{
+	max-width: 40px;
+}
+.accordion__price ul{
+	padding-right: 5px;
+	padding-left: 50px;
+	justify-content: space-between;
+display: flex;	
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #000F46;
+
+}
+
+.b-accordion__content{
+	display: none;
+}
+
+.accordion__header:after{
+	    content: '';
+ background-image: url(../img/accord.svg);
+ width: 10px;
+ height: 10px;
+ background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    transition: 0.3s;
+}
+.accordion__header.in:after{
+	 transform: rotate(90deg);
+
+}
+.car__button{
+	margin-top: 5px;
+}
+
+.b-about__deposit span{
+	font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+
+color: #000F46;
+
+}
+.b-about__deposit{
+	font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+margin-top: 29px;
+margin-bottom: 29px;
+
+color: #000F46;
+}
+.price__seasons{
+	background: #F1F2F6;
+	height: 100px;
+	width: 500px;
+	align-items: center;
+}
+
+.season{
+	margin-left: 20px;
+	margin-top: 15px;
+	display: flex;
+}
+.season:first-child{
+	padding-top: 20px;
+
+}
+.price__header{
+	font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+margin-top: 23px;
+margin-bottom: 23px;
+color: #000F46;
+}
+.season__name{
+	font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+margin-right: 5px;
+
+color: #000F46;
+}
+.season__price{
+	font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #000F46;
+}
+.b-about__port{
+	font-size: 12px;
+line-height: 15px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+color: #000F46;
+
+}
+
+.plane__name{
+	text-transform: uppercase;
+	max-width: 342px;
+}
+.boat__name{
+	max-width: 342px;
+
 }
