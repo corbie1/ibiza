@@ -1438,6 +1438,7 @@ color: #FFFFFF;
 	height: auto;
 width: 100%;
 display: block;
+	transition: 1s;
 
 		max-width: 60vw;
 }
@@ -1446,7 +1447,7 @@ display: block;
 	width: 100%;
 	height: auto;
 	opacity: 0.55;
-
+	transition: .25s;
 }
 .slider-nav{
 	width: 100%;
@@ -1465,11 +1466,14 @@ opacity: 1;
     bottom: 50px;
 background-image: url(../img/next.svg);
 background-size: 50%;
+cursor: pointer;
+
 }
 .slick-prev{
     bottom: 110px;
 background-image: url(../img/back.svg);
 background-size: 50%;
+cursor: pointer;
 }
 .slick-arrow:hover{
 	opacity: .9
