@@ -59,6 +59,7 @@ $('.b-slick__items').slick({
       breakpoint: 700,
       settings: {
                 slidesToShow: 2,
+
             }
     }
   
