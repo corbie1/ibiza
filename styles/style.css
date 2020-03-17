@@ -7,11 +7,11 @@ font-family:"Montserrat" ;
 	font-size: 14px;
 
 }
-/*img{
+img{
 	display: block;
 	width: 100%;
 	height: auto;
-}*/
+}
 li{
 	list-style: none;
 	margin: 0;
@@ -1430,18 +1430,21 @@ color: #FFFFFF;
 	margin-left: 65px;
 	margin-bottom: 65px;
 }
-.b-gallery{
-	max-width: 1080px;
+.b-gallery{	
+
+	width: 1080px;
 }
 .b-gallery__slide{
+	height: auto;
 width: 100%;
+display: block;
+
+		max-width: 60vw;
 }
 
 .b-gallery__image img{
-	max-width:270px;
-	width: auto;
+	width: 100%;
 	height: auto;
-	max-height: 200px; 
 	opacity: 0.55;
 
 }
@@ -1849,17 +1852,25 @@ margin-right: 20px;
 	}
 	.b-gallery{
 		order: 2;
+		width: 100%;
+
 	}
-	.b-gallery__image{
-	}
-	.b-gallery__slide{
+.b-gallery__image img{
 	width: 100%;
 	height: auto;
+}
+	.b-gallery__slide{
+	display: block;
+	width: 100%;
+
+	height: auto;
+		max-width: 100vw;
 }
 .b-about__name{
 	max-width: 100%;
 }
 .b-gallery{
+
 }
 .b-about__button{
 	margin-bottom: 30px;
