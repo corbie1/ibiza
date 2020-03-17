@@ -35,15 +35,35 @@ $('.b-slick__items').slick({
   slidesToScroll: 1,
   arrows: true,
     infinite: true,
-  responsive: [{
-            breakpoint: 1600,
-            settings: {
+  responsive: [
+    {
+      breakpoint: 1600,
+      settings: {
                 slidesToShow: 5,
                 arrows: false,
             }
-        }]
-});
-
+    },
+     {
+      breakpoint: 1300,
+      settings: {
+                slidesToShow: 4,
+            }
+    },
+   {
+      breakpoint: 1000,
+      settings: {
+                slidesToShow: 3,
+            }
+    },
+      {
+      breakpoint: 700,
+      settings: {
+                slidesToShow: 2,
+            }
+    }
+  
+  ]
+    });
 
 $('.popup__hamb').click(function(e){
     $('body').addClass("popup-opened");

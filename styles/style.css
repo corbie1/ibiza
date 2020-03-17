@@ -69,6 +69,9 @@ margin: 0 auto;
 	color: #ffffff;
 	padding-bottom: 10px;
 }
+.header__humb{
+	display: none;
+}
 .head__scrolled{
 	display: block;
 }
@@ -251,10 +254,13 @@ padding-bottom: 61px;
 }
 .b-navigation__card{
 	position: relative;
-	width: 244px;
+	width: calc(100%/3);
 	display: block;
 	text-shadow: 1px 1px 2px black;
 	margin-right: 12px;
+	max-width: 244px;
+    flex-shrink: 0;
+    margin-top: 20px;
 }
 .b-navigation__card--text{
 	position: absolute;
@@ -275,7 +281,10 @@ line-height: 17px;
 }
 .b-navigation__cards{
 margin-top: 65px;
-
+    flex-wrap: wrap;
+	display: flex;
+max-width: 770px;
+margin-left: 0;
 }
 
 .b-navigation__card--bg:after { 
@@ -303,10 +312,7 @@ margin-top: 65px;
 	transition: 0.5s;
 
 	 }
-.b-navigation__cards{
-	display: flex;
 
-}
 .cards--bottom{
 	margin-top: 12px;
 }
@@ -1240,10 +1246,11 @@ color: rgba(255, 255, 255, 0.7);
 }
 #form-3 .mfp-close{
     position: fixed;
-    right: 195px;
+	right: calc(50vw - (1520px / 2));
+  
     top: 21px;
-  width: 45px;
-  height: 32px;
+  	width: 45px;
+  	height: 32px;
 }
 #form-3 .mfp-close:before, #form-3 .mfp-close:after {
   position: absolute;
@@ -1740,3 +1747,208 @@ color: #000F46;
 	max-width: 342px;
 
 }
+
+
+
+
+@media screen and (max-width: 1519px){
+.block__inner {
+max-width: 1330px;
+margin: 0 20px;
+}
+
+
+.hexader__social{
+	display: flex;
+
+}
+.b-owners__info{
+	margin-left: 50px;
+}
+.info--right {
+    margin-right: 50px;
+}
+.number--right {
+    margin-left: 20px;
+}
+.b-owners--number{
+margin-right: 20px;
+}
+#form-3 .mfp-close {
+	right: calc(50vw - (1330px / 2));
+}
+.header__lang {
+    margin-right: 50px;
+}
+.b-navigation__cards{
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.b-navigation__title{
+	    margin: 0 20px;
+}
+.b-slick .slick-prev{
+	left: 0vw;
+}
+.b-slick .slick-next{
+	right: 2vw;
+}
+.slick-track{
+	margin-left: 55px;
+}
+}
+
+@media screen and (max-width: 1335px){
+.header__inner{
+	min-width: 100vw;
+}
+.header__lang--fixed {
+    margin-right: 20px;
+}
+.header__lang {
+    margin-right: 0;
+}
+.nav__menu {
+	margin-right: 50px;
+}
+.social__img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+#form-3 .mfp-close {
+right: calc(0vw + 30px);
+}
+.header__social{
+	display: none;
+}
+.hamb__icon {
+    margin-right: 45px;
+}
+.header__button{
+	margin-right: 40px;
+}
+.header__logo object{
+	width:180px;
+	height: auto;
+}
+}
+
+@media screen and (max-width: 979px){
+	.block__inner {
+margin: 0 10px;
+}
+.header__humb{
+	display: block;
+}
+.header__phone{
+		display: none;
+}
+.b-owners__card{
+	padding-bottom: 20px;
+	display: block;
+}
+.b-owners__info{
+	margin-top: 20px;
+}
+.b-owners--social{
+	display: inline-flex;
+}
+.b-owners__img{
+	width: 100%;
+	height: 100%;
+}
+.info--right {
+    text-align: left;
+}
+.slogan--right {
+    border-left: 3px solid #000F46;
+    padding-left: 23px;
+    border-right: none;
+}
+.header__bot{
+	margin-right: 10px;
+}
+.nav__menu{
+	display: none;
+}
+.header__button{
+	    padding: 14px 18px;
+}
+.hamb--phone{
+	display: inline-flex;
+}
+.hamb__contacts:after{
+	display: none;
+}
+.b-navigation__cards{
+	display: flex;
+		flex-wrap: nowrap;
+-webkit-overflow-scrolling:touch!important;
+scroll-behavior: smooth;
+scroll-snap-type: x mandatory;
+overflow-x: auto;
+}
+.b-navigation__cards::-webkit-scrollbar { 
+	width: 0;
+	 -webkit-appearance: none;
+	  background-color: transparent;
+	   display: none;
+	}
+.b-navigation__card{
+	width: 255px;
+	background-color: #fff;
+flex-shrink: 0;
+text-shadow: none;
+scroll-snap-align: center;
+}
+.b-navigation__card--text{
+color: #000;
+    padding-bottom: 25px;
+position: relative;
+}
+.b-navigation__card--link{
+	margin-bottom: 10px;
+	
+	opacity: 1;
+}
+.social--right{
+	flex-direction: row-reverse;
+}
+.icon--right{
+	margin-right: 20px;
+	margin-left: 0;
+}
+.b-navigation__card--bg:after {
+display: none;
+}
+.b-navigation__card:hover .b-navigation__card--link{
+padding-bottom: 0px;
+}
+.b-navigation__card:hover .b-navigation__card--text {
+    padding-bottom: 0px;
+}
+
+}
+
+
+
+
+/*
+
+
+@media screen and (max-width: 768px){
+
+}
+
+
+@media screen and (max-width: 479px){
+
+}
+
+
+@media screen and (max-width: 361px){
+
+}
+
+*/
