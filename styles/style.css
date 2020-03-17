@@ -86,10 +86,11 @@ margin: 0 auto;
 	text-transform: uppercase;
 	cursor: pointer;
  	border: none;
+	transition: .5s
+
 }
 .button:hover{
 	background: #FFD5A3;
-	transition: .5s
 }
 .phone__img{
 	width: 25px;
@@ -149,6 +150,7 @@ line-height: 12px;
 text-align: right;
 text-transform: uppercase;
 }
+
 .nav__item a{
 	color: rgba(255, 255, 255, 0.7);
 
@@ -1045,7 +1047,9 @@ color: #000F46;
 	right: 0;
 	z-index: 1;
 	bottom: 0;
-	opacity: 0; }
+	opacity: 0;
+	transition: 0.5s;
+	 }
 
 
 .b-select__bg:after { 
@@ -1057,22 +1061,25 @@ color: #000F46;
 	bottom: 0;
 	background: rgba(0, 47, 97, 0.72); 
 	 opacity: 0; 
+	transition: 0.5s;
 
 	}
 
 .b-select__card:hover .b-select__bg:before,
 .b-select__card:hover .b-select__bg:after { 
 	opacity: 1;
-	transition: 0.5s;
 }
 .b-select__content{
 	z-index: 2;
 	position: relative;
 	padding-top: 550px;
 }
+.b-select__content{
+	transition: .5s;
+
+}
 .b-select__card:hover .b-select__content{
 	padding-top: 360px;
-	transition: .5s;
 }
 
 
@@ -1912,6 +1919,7 @@ margin-top: 0;
 .b-buy__text{
 	max-width: 600px;
 }
+
 }
 
 @media screen and (max-width: 979px){
@@ -2046,11 +2054,15 @@ padding-bottom: 0px;
 	padding-left: 20px;
 }
 #form-2{
-	position: relative;
     width: auto;
-
 }
-
+#form-3 .menu__box{
+     overflow: auto;
+}
+#form-2{
+		width: 100%;
+     overflow: auto;
+}
 .b-aside{
 	padding-bottom: 30px;
 }
@@ -2116,6 +2128,7 @@ padding-top: 40px;
      margin-left: 5px; 
 }
 #form-4{
+
 	padding: 50px 40px;
 }
 .form{
@@ -2183,7 +2196,9 @@ padding-top: 40px;
 .b-popup__text {
     max-width: 300px;
 }
-
+.b-buy__about{
+	padding-left: 5px;
+}
 }
 
 
