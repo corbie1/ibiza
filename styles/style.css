@@ -854,8 +854,12 @@ color: rgba(0, 15, 70, 0.5);
 	height: auto;
 
 }
+.b-store__paginator--next img{
+			width: 30px;
+	height: auto;
+}
 .b-store__paginator--next{
-	margin-left: 50px;
+
 }
 .paginator__item:after{
 	content: '';
@@ -1877,6 +1881,7 @@ margin-right: 20px;
 
 }
 .b-about__button{
+	margin: auto;
 	margin-bottom: 30px;
 	}
 
@@ -2192,6 +2197,8 @@ padding-top: 40px;
 }
 .b-security__form #form-4{
     width: 500px;
+margin: auto;
+    
     }
     .main__form {
      margin-left: 5px; 
@@ -2208,6 +2215,8 @@ padding-top: 40px;
 }
 .b-cook__form #form-4{
     width: 500px;
+margin: auto;
+
     }
     .main__form {
      margin-left: 5px; 
@@ -2250,31 +2259,14 @@ padding-top: 40px;
 
 
 @media screen and (max-width: 479px){
-	.header__logo object{
+.header__logo object{
     width: 120px;
     height: auto;
 	}
 .b-slick__title{
 	    font-size: 36px;
 }
-.b-security__form #form-4{
-    width: 420px;
-    }
-    .main__form {
-     margin-left: 5px; 
-}
-#form-4{
-	padding: 40px 30px;
-}
-.form{
-	    width: 300px;
-}
-.b-popup__privacy{
-	max-width: 300px;
-}
-.b-popup__text {
-    max-width: 300px;
-}
+
 .b-buy__about{
 	padding-left: 5px;
 }
@@ -2294,17 +2286,73 @@ padding-top: 40px;
 .store__phone--img{
 	display: none;
 }
+.paginator__item{
+	    height: auto;
+    width: 40px;
+}
+.paginator__item:after{
+	opacity: 0;
+}
+.hamb--soc{
+	margin-left: 10px;
+}
+.b-popup__text::before{
+opacity: 0;
+}
+.b-security__form #form-4{
+	max-width: 360px;
+    width: auto;
+    padding: 10px 10px;
+
+    }
+.b-cook__form #form-4{
+    max-width: 360px;
+    height: auto;
+    padding: 10px 10px;
+}
+.main__form {
+    margin: auto;
+}
+
+#form-4{
+margin-right: 10px;
+}
+.form{
+	width: 250px;
+}
+.b-popup__privacy{
+	max-width: 250px;
+}
+.b-popup__text {
+	width: auto;
+}
+
 }
 
 
 @media screen and (max-width: 361px){
+.form{
+	width: 200px;
+}
+.b-security__form #form-4{
+	max-width:250px;
 
 
+
+    }
+.b-cook__form #form-4{
+	max-width: 250px;
+}
+
+.b-popup__privacy{
+	max-width: 200px;
+}
 .b-form__logo {
     margin-left: 30px;
 }
 .hamb__icon {
     margin-right: 5px;
 }
+
 }
 
