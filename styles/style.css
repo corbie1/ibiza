@@ -2198,7 +2198,7 @@ padding-top: 40px;
 .b-security__form #form-4{
     width: 500px;
 margin: auto;
-    
+    	margin-bottom: 20px;
     }
     .main__form {
      margin-left: 5px; 
@@ -2216,6 +2216,7 @@ margin: auto;
 .b-cook__form #form-4{
     width: 500px;
 margin: auto;
+    	margin-bottom: 20px;
 
     }
     .main__form {
