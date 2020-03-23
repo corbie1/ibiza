@@ -1,4 +1,6 @@
-
+$(function() {
+    $("img.lazy").lazyload({effect : "fadeIn"});
+});
 $(document).ready(function() {
     $('.popup-with-form').magnificPopup({
         type: 'inline',
