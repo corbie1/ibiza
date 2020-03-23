@@ -2118,7 +2118,7 @@ overflow-x: auto;
 .b-navigation__card{
 	margin-left:10px;
 	width: 255px;
-	background-color: #fff;
+	background-color: #F1F2F6;
 flex-shrink: 0;
 text-shadow: none;
 scroll-snap-align: center;
@@ -2316,6 +2316,7 @@ margin: auto;
 	 flex-flow: wrap;	
 }
 .b-owners__text{
+	white-space: nowrap;
 	order: 1;
 }
 .number--right {
@@ -2332,7 +2333,13 @@ margin: auto;
 .header__lang {
     margin-left: 10px;
 }
+.info--right{
+	margin-left: 20px;
+}
+.b-owners__info{
+	margin-left: 20px;
 
+}
 }
 
 
@@ -2428,7 +2435,12 @@ padding: 10px 11px;
 text-transform: uppercase;
 
 color: #000F46;
-
+    }
+    .season{
+    	display: block;
+    }
+    .price__seasons{
+    	height: 100%;
     }
 }
 
@@ -2455,6 +2467,7 @@ line-height: 34px;
 }
 .b-form__logo {
     margin-left: 30px;
+    width: 140px;
 }
 .hamb__icon {
     margin-right: 5px;
