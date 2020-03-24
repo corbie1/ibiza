@@ -363,8 +363,8 @@ justify-content: space-between;
 	display: flex;
 	align-items: center;
 	padding-top: 10px;
-
 }
+
 .b-owners__info object{
 	pointer-events: none;
 }
@@ -721,7 +721,13 @@ height:3px;
 	position: relative;
 }
 
-
+.store__link{
+	display: none;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
 .b-store__grid{
   display: flex;
   flex-wrap: wrap;
@@ -742,6 +748,9 @@ height:3px;
 	background-size: cover;
 	text-align: center;
 }
+.b-store__card--text{
+	text-shadow: 1px 1px 2px black;
+}
 .b-store__content{
 	position: relative;
 		z-index: 2;
@@ -755,7 +764,7 @@ align-items: center;
 }
 .b-store__card--text{
 transition: .5s;
-
+color: #fff;
 }
 .b-store__card--bg:after { 
 	content: '';
@@ -829,7 +838,7 @@ transform: translateY(-300px)
 	color: #FFFFFF;
 }
 .store__phone--img{
-	padding-right: 0;
+	padding-right: 5px;
 	margin-left: 15px;
 }
 
@@ -1560,6 +1569,7 @@ color: #000F46;
 margin-top: 30px;
 
 }
+
 .props__item:before{
 	width: 5px;
 height: 5px;
@@ -1859,7 +1869,12 @@ position: absolute;
 max-width: 1330px;
 }
 
-
+.header__button {
+	margin-right: 10px;
+}
+.header__logo{
+	margin-left: 10px;
+}
 .hexader__social{
 	display: flex;
 
@@ -1887,6 +1902,9 @@ margin-right: 20px;
 .b-navigation__cards{
 	margin-top: 50px;
 	margin-left: 20px;
+}
+.store__phone{
+	display: none;
 }
 .b-navigation__title{
 	    margin: 0 20px;
@@ -1977,6 +1995,9 @@ display: block;
 .b-cook__list{
 	padding-bottom: 40px;
 }
+.nav__menu{
+	margin-right: 20px;
+}
 }
 
 @media screen and (max-width: 1335px){
@@ -2053,11 +2074,36 @@ margin-top: 0;
 	margin-left: 0px;
 	margin-top: 10px;
 }
+.nav__item {
+    margin-left: 50px
+}
 }
 
 @media screen and (max-width: 979px){
 	.block__inner {
 margin: 0 10px;
+}
+.b-store__card--button{
+	display: none;
+}
+.b-store__card--bg{
+	display: none;
+}
+.b-store__card--link{
+display: none;
+}
+.b-store__social{
+	display: none;
+}
+.b-store__card--text{
+	margin-bottom: 30px;
+}
+.b-store__card:hover .b-store__card--text{
+transform: translateY(0);
+}
+.b-store__content{
+	    margin-top: 0;
+	    justify-content: flex-end;
 }
 .header__humb{
 	display: block;
@@ -2176,7 +2222,7 @@ padding-bottom: 0px;
 	opacity: 1;
 }
 .b-store__card {
-    width: calc(100%/2);
+    width: 100%;
 }
 .b-store__grid{
 	height: auto;
@@ -2225,10 +2271,10 @@ padding-bottom: 0px;
 	.b-store__social{
 		opacity: 1;
 	}
-	.b-store__card--text{
-		transform: translateY(-300px);
-	}
 
+.store__link{
+	display: block;
+}
 }
 
 
@@ -2339,6 +2385,10 @@ margin: auto;
 .b-owners__info{
 	margin-left: 20px;
 
+}
+.b-accordion__item {
+    max-width: 500px;
+    width: 100%;
 }
 }
 
