@@ -188,7 +188,7 @@ transition: .5s;
 }
 .b-navigation{
 
-	min-height: 1200px;
+	min-height: 100vh;
 		background-image: url(../img/6.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1874,17 +1874,10 @@ position: absolute;
 	margin-top:70px;
 	margin-bottom: 70px;
 }
-@media screen and (max-width: 1921px){
-.b-navigation{
-
-	min-height: 1000px;
-}
-}
 @media screen and (max-width: 1519px){
 .block__inner {
 max-width: 1330px;
 }
-
 
 
 .header__button {
