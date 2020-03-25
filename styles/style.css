@@ -206,7 +206,7 @@ transition: .5s;
 .b-navigation__title{
 	position: relative;
 	text-shadow: 1px 1px 1px #000;
-	padding-top: 200px;
+	padding-top: 100px;
 	font-family:"Montserrat";
 	font-style: normal;
 	font-weight: 300;
@@ -344,8 +344,8 @@ margin-left: 0;
 	margin-top: 12px;
 }
 .b-owners__img{
-	width: 520px;
-	height: 520px;
+	width: 400px;
+	height: 400px;
 }
 .b-owners__card{
 	display: flex;
@@ -414,8 +414,8 @@ color: #000F46;
 }
 
 .b-owners__info{
-	margin-left: 200px;
-		margin-top: 195px;
+	margin-left: 100px;
+		margin-top: 100px;
 }
 .b-owners--founder{
 	margin-bottom: 25px;
@@ -431,7 +431,7 @@ color: #000F46;
 
 }
 .b-owners--number{
-	margin-right: 110px
+	margin-right: 80px
 }
 
 .card--right{
@@ -441,7 +441,7 @@ background: #F1F2F6;
 }
 .info--right{
 	text-align: right;
-	margin-right: 200px
+	margin-right: 100px
 }
 .slogan--right{
 border-right: 3px solid #000F46;
@@ -460,7 +460,7 @@ padding-right: 23px;
 }
 .number--right{
 	margin-right: 0;
-margin-left: 110px;
+margin-left: 80px;
 min-width: 146px;
 }
 
@@ -2022,7 +2022,9 @@ display: block;
 .header__inner{
 	min-width: 100vw;
 }
-
+.icon--right{
+	margin-right: 10px;
+}
 .header__lang--fixed {
     margin-right: 20px;
 }
@@ -2387,6 +2389,7 @@ margin: auto;
 	white-space: nowrap;
 	order: 1;
 }
+
 .number--right {
     margin-left: 0px;
     padding-top: 10px;
