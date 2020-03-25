@@ -158,7 +158,7 @@ margin-left: 80px;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
-font-size: 10px;
+font-size: 12px;
 line-height: 12px;
 text-align: right;
 text-transform: uppercase;
@@ -205,8 +205,8 @@ transition: .5s;
 }
 .b-navigation__title{
 	position: relative;
-
-	padding-top: 217px;
+	text-shadow: 1px 1px 1px #000;
+	padding-top: 200px;
 	font-family:"Montserrat";
 	font-style: normal;
 	font-weight: 300;
@@ -304,7 +304,7 @@ color: #ffffff;
 line-height: 17px;
 }
 .b-navigation__cards{
-margin-top: 65px;
+margin-top: 40px;
     flex-wrap: wrap;
 	display: flex;
 max-width: 770px;
@@ -344,8 +344,8 @@ margin-left: 0;
 	margin-top: 12px;
 }
 .b-owners__img{
-	width: 575px;
-	height: 575px;
+	width: 520px;
+	height: 520px;
 }
 .b-owners__card{
 	display: flex;
@@ -1874,11 +1874,18 @@ position: absolute;
 	margin-top:70px;
 	margin-bottom: 70px;
 }
-@media screen and (max-width: 1519px){
+@media screen and (max-width: 1981px){
+	.b-navigation{
+		min-height: 1050px;
+	}
+}
+@media screen and (max-width: 1601px){
 .block__inner {
 max-width: 1330px;
 }
-
+.header{
+    margin-left: 20px;
+}
 
 .header__button {
 	margin-right: 10px;
@@ -2132,7 +2139,7 @@ transform: translateY(0);
 
 .b-owners__img{
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
 .info--right {
     text-align: left;
@@ -2277,6 +2284,9 @@ overflow-x: auto;
 	 -webkit-appearance: none;
 	  background-color: transparent;
 	   display: none;
+	}
+	.b-navigation__title{
+		padding-top: 150px;
 	}
 .b-navigation__card{
 	margin-left:10px;
