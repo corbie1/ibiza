@@ -2515,6 +2515,7 @@ color: #000F46;
     	display: block;
     }
     .price__seasons{
+    	width: 95%;
     	height: 100%;
     }
 }
