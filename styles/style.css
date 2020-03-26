@@ -2518,6 +2518,9 @@ color: #000F46;
     	width: 95%;
     	height: 100%;
     }
+    .accordion__header{
+    	margin-right: 10px;
+    }
 }
 
 
