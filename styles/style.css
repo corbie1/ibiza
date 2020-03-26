@@ -415,7 +415,7 @@ color: #000F46;
 
 .b-owners__info{
 	margin-left: 100px;
-		margin-top: 100px;
+		margin-top: 80px;
 }
 .b-owners--founder{
 	margin-bottom: 25px;
@@ -1883,9 +1883,7 @@ position: absolute;
 .block__inner {
 max-width: 1330px;
 }
-.header{
-    margin-left: 20px;
-}
+
 
 .header__button {
 	margin-right: 10px;
@@ -2015,6 +2013,9 @@ display: block;
 }
 .nav__menu{
 	margin-right: 20px;
+}
+.mail--right{
+	padding-bottom: 10px;
 }
 }
 
