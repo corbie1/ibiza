@@ -2420,14 +2420,14 @@ margin: auto;
 
 @media screen and (max-width: 479px){
 	.b-navigation__card{
-		max-width: 160px;
+		max-width: 159px;
 		height: auto;
 	}
 	.block__title--bold{
 		font-size: 50px;
 	}
 	.block__title{
-		    font-size: 32px;
+		    font-size: 35px;
 		    line-height: 45px;
 	}
 	.block__subtitle{
