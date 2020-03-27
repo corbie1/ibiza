@@ -2417,6 +2417,7 @@ margin: auto;
 	}
 	.b-navigation__card--img{
 		  object-fit: cover;
+		  object-position: 65%;
 	}
 	.b-navigation{
 		min-height: 1050px;
@@ -2525,7 +2526,12 @@ color: #000F46;
     }
     .b-navigation__card--text{
     	padding-top: 10px;
+    	padding-left: 10px;
+
     	font-size: 12px;
+    }
+    .b-navigation__card--link{
+    	padding-left: 10px;
     }
 }
 
