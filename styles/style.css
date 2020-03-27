@@ -2271,6 +2271,13 @@ padding-bottom: 0px;
 
 
 @media screen and (max-width: 768px){
+		.block__title--bold{
+		font-size: 54px;
+	}
+	.block__title{
+		    font-size: 50px;
+		    line-height: 45px;
+	}
 .b-navigation{
 	min-height: 1300px;
 }
@@ -2407,6 +2414,7 @@ margin: auto;
     max-width: 500px;
     width: 100%;
 }
+
 }
 
 
