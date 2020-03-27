@@ -1916,7 +1916,6 @@ margin-right: 20px;
 }
 
 .b-navigation__cards{
-	margin-top: 50px;
 	margin-left: 20px;
 }
 .store__phone{
@@ -2272,31 +2271,24 @@ padding-bottom: 0px;
 
 
 @media screen and (max-width: 768px){
-	.b-navigation__cards{
-	margin-left: -10px;	
-	display: flex;
-		flex-wrap: nowrap;
--webkit-overflow-scrolling:touch!important;
-scroll-behavior: smooth;
-scroll-snap-type: x mandatory;
-overflow-x: auto;
+.b-navigation{
+	min-height: 1300px;
 }
-.b-navigation__cards::-webkit-scrollbar { 
-	width: 0;
-	 -webkit-appearance: none;
-	  background-color: transparent;
-	   display: none;
-	}
 	.b-navigation__title{
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 .b-navigation__card{
-	margin-left:10px;
-	width: 255px;
+	margin-left:0px;
+	width: calc(100%/2);
+	max-width: 215px;
 	background-color: #F1F2F6;
 flex-shrink: 0;
 text-shadow: none;
-scroll-snap-align: center;
+
+}
+.b-navigation__card--img{
+	width: 100%;
+
 }
 .b-navigation__card--text{
 color: #000;
@@ -2419,6 +2411,16 @@ margin: auto;
 
 
 @media screen and (max-width: 479px){
+	.b-navigation__card{
+		max-width: 160px;
+		height: auto;
+	}
+	.b-navigation__card--img{
+		  object-fit: cover;
+	}
+	.b-navigation{
+		min-height: 1050px;
+	}
 .header__logo object{
     width: 120px;
     height: auto;
@@ -2521,6 +2523,10 @@ color: #000F46;
     .accordion__header{
     	margin-right: 10px;
     }
+    .b-navigation__card--text{
+    	padding-top: 10px;
+    	font-size: 12px;
+    }
 }
 
 
@@ -2528,6 +2534,10 @@ color: #000F46;
 .form{
 	width: 200px;
 }
+.b-navigation__card{
+		max-width: 130px;
+		height: auto;
+	}
 .b-security__form #form-4{
 	max-width:250px;
     }
