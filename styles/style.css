@@ -362,6 +362,7 @@ justify-content: space-between;
 .b-owners--mail{
 	display: flex;
 	align-items: center;
+	
 }
 
 .b-owners__info object{
@@ -548,7 +549,10 @@ padding-top: 80px;
 .b-footer a{
 	color: #ffffff;
 }
+.social--right{
 
+    flex-flow: row-reverse;
+}
 #form-1{
 	color: #000F46;
       animation: open .5s;
@@ -2259,6 +2263,11 @@ padding-bottom: 0px;
 .store__link{
 	display: block;
 }
+.b-owners--mail{
+
+	padding-top: 10px;
+}
+
 }
 
 
@@ -2374,16 +2383,11 @@ margin: auto;
 .b-owners--social{
 	display: block;
 }
-.social--right{
-	display: flex;
-	    flex-flow: wrap-reverse;
-	
-}
+
+
 .b-owners--mail{
 	display: flex;
 	align-items: center;
-	padding-top: 10px;
-	
 }
 .mail--right{
 	 flex-flow: wrap;	
