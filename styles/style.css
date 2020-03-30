@@ -2099,9 +2099,7 @@ margin-top: 0;
 }
 
 @media screen and (max-width: 979px){
-	.block__inner {
-margin: 0 10px;
-}
+
 .b-store__card--button{
 	display: none;
 }
@@ -2376,6 +2374,11 @@ margin: auto;
 }
 .b-owners--social{
 	display: block;
+}
+.social--right{
+	display: flex;
+	    flex-flow: wrap-reverse;
+	
 }
 .b-owners--mail{
 	display: flex;
