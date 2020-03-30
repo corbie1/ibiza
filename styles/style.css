@@ -2382,6 +2382,8 @@ margin: auto;
 .b-owners--mail{
 	display: flex;
 	align-items: center;
+	padding-top: 10px;
+	
 }
 .mail--right{
 	 flex-flow: wrap;	
