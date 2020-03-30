@@ -2192,10 +2192,10 @@ padding-bottom: 0px;
 	opacity: 1;
 }
 .b-select__card:hover .b-select__content {
-	    padding-top: 75px;
+	    padding-top: 235px;
 }
 .b-select__content{
-	padding-top: 75px;
+	padding-top: 235px;
 }
 .b-select__text {
 	color: #fff;
@@ -2205,9 +2205,12 @@ padding-bottom: 0px;
 	display: block;
 }
 .b-select__card{
-	min-height:320px;
+	min-height:620px;
 	width: 100%;
-	ba
+
+}
+.b-select__arenda{
+	border-bottom: 2px solid #fff;
 }
 .b-select__bg:after {
 	opacity: 1;
@@ -2290,8 +2293,19 @@ padding-bottom: 0px;
 
 
 @media screen and (max-width: 768px){
+.b-select__card:hover .b-select__content {
+	    padding-top: 120px;
+}
+.b-select__content{
+	padding-top: 120px;
+}
 	.b-select__card{
-	    background-position-y: -50px;
+	min-height:360px;
+	width: 100%;
+
+}
+	.b-select__card{
+	    background-position-y: -30px;
 }
 	.b-security{
 		    background-position: -1000px;
