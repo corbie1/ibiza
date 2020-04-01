@@ -2294,18 +2294,22 @@ padding-bottom: 0px;
 
 @media screen and (max-width: 768px){
 .b-select__card:hover .b-select__content {
-	    padding-top: 120px;
+	    padding-top: 80px;
 }
 .b-select__content{
-	padding-top: 120px;
+	padding-top: 80px;
 }
 	.b-select__card{
-	min-height:360px;
+	min-height:280px;
 	width: 100%;
 
 }
 	.b-select__card{
 	    background-position-y: -30px;
+}
+
+.b-select__text{
+	font-size: 38px;
 }
 	.b-security{
 		    background-position: -1000px;
