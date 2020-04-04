@@ -1,4 +1,8 @@
-
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+}); 
+lazyLoadInstance.update();
 $(document).ready(function() {
     $('.popup-with-form').magnificPopup({
         type: 'inline',
